@@ -1,0 +1,57 @@
+.taskCell {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.taskLink {
+  color: var(--color-text);
+  font-weight: var(--font-medium);
+}
+
+.taskLink:hover {
+  color: var(--color-accent-text);
+}
+
+.key {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-xs);
+}
+
+.meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-4);
+}
+
+.term {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-medium);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.formError {
+  color: var(--color-danger);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-2);
+}
+
+.headerMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}

@@ -1,0 +1,78 @@
+:root {
+  color-scheme: light;
+
+  --color-bg: #f4f6f8;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f8fafb;
+  --color-border: #e4e7ec;
+  --color-border-strong: #d0d5dd;
+  --color-text: #1c2430;
+  --color-text-secondary: #526072;
+  --color-text-muted: #7b8798;
+  --color-accent: #0f766e;
+  --color-accent-hover: #0d655e;
+  --color-accent-subtle: #e6f4f2;
+  --color-accent-text: #115e59;
+  --color-on-accent: #ffffff;
+  --color-info: #1d4ed8;
+  --color-info-subtle: #e8efff;
+  --color-success: #157347;
+  --color-success-subtle: #e7f6ee;
+  --color-warning: #b45309;
+  --color-warning-subtle: #fff4e5;
+  --color-danger: #b42318;
+  --color-danger-hover: #912018;
+  --color-danger-subtle: #fdecec;
+  --color-neutral-subtle: #f2f4f7;
+  --color-overlay: rgba(16, 24, 40, 0.45);
+
+  --font-sans: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.8125rem;
+  --font-size-md: 0.875rem;
+  --font-size-lg: 1rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --line-tight: 1.25;
+  --line-normal: 1.5;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --shadow-md: 0 8px 24px rgba(16, 24, 40, 0.08);
+  --shadow-lg: 0 16px 40px rgba(16, 24, 40, 0.16);
+
+  --sidebar-width: 248px;
+  --topbar-height: 60px;
+  --content-max: 1180px;
+
+  /* Media queries cannot read custom properties. Use these widths in CSS. */
+  --bp-sm: 640px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+
+  --focus-ring: 0 0 0 3px rgba(15, 118, 110, 0.28);
+  --z-topbar: 10;
+  --z-backdrop: 20;
+  --z-sidebar: 30;
+  --z-modal: 40;
+}
