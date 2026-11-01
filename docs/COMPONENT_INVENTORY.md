@@ -2,6 +2,8 @@
 
 Shared components live under `src/components`. They receive data and callbacks through props. They do not read mock data or Redux.
 
+This inventory lists **18 reusable components**. `AppShell` is the route frame, and the four sidebar icons in `src/components/layout/icons.tsx` are not separate product components. Together those files export 23 React components. The measured count is also recorded in [BASELINE_METRICS.md](BASELINE_METRICS.md).
+
 Class names referenced below come from the component's CSS Module. Callers pass design intent through props, not raw color values.
 
 ## Button

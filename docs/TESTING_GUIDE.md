@@ -8,6 +8,8 @@ Run the suite:
 npm test
 ```
 
+The baseline audit on commit `30564f67622a8f23ed68ad1eb532f18c2ec1ade4` reported **15 files, 35 tests, all passed**. The same audit's lint, typecheck, and production build also passed. Details are in [BASELINE_METRICS.md](BASELINE_METRICS.md).
+
 The suite is deterministic:
 
 - API delay is `0` when `import.meta.env.MODE` is `test`.

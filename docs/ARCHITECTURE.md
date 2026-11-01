@@ -68,3 +68,7 @@ Visual values come from custom properties in `src/styles/tokens.css`: color, typ
 ## What is intentionally absent
 
 The agent pipeline, authentication, project creation, comments, attachments, and a backend are not part of this baseline.
+
+## Experimental baseline
+
+The application baseline is commit `30564f67622a8f23ed68ad1eb532f18c2ec1ade4`, tag `thesis-baseline-v1`. Measured test, lint, typecheck, and build results are in [BASELINE_METRICS.md](BASELINE_METRICS.md). The shared component set has 18 reusable components, documented in [COMPONENT_INVENTORY.md](COMPONENT_INVENTORY.md).

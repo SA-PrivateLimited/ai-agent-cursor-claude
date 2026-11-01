@@ -45,15 +45,17 @@ npm run build
 
 - [Architecture](docs/ARCHITECTURE.md)
 - [Component inventory](docs/COMPONENT_INVENTORY.md)
+- [Baseline metrics](docs/BASELINE_METRICS.md)
 - [Development guide](docs/DEVELOPMENT_GUIDE.md)
 - [Testing guide](docs/TESTING_GUIDE.md)
 
 ## Baseline
 
-Treat the commit that introduces this application as the experimental baseline. Do not add the agent pipeline to this repository, and do not change unrelated code between experimental runs. Record the baseline with:
+The experimental baseline is commit `30564f67622a8f23ed68ad1eb532f18c2ec1ade4`, tag `thesis-baseline-v1`. Do not add the agent pipeline to this repository, and do not change unrelated code between experimental runs. Confirm the checkout with:
 
 ```bash
 git rev-parse HEAD
+git describe --tags --exact-match HEAD
 ```
 
 ## Out of scope
